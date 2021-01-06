@@ -1,0 +1,478 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.bg-light {
+    background-color: #ffffff !important;
+}
+
+.navbar {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.navbar img {
+    width: 190px;
+}
+
+.navbar ul li {
+    margin: auto;
+}
+
+.navbar .active {
+    font-weight: 800;
+}
+
+.navbar .cta {
+    margin-left: 5px;
+    background-color: #EF5B67;
+    border-style: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 13px;
+    font-weight: 700;
+}
+
+.hero {
+    padding-top: 58px;
+    padding-bottom: 20px;
+    margin-bottom: 180px;
+    height: 525px;
+    background-image: url(/img/background.png);
+}
+
+.hero h1 {
+    margin-top: 50px;
+    font-weight: 700;
+    line-height: 52px;
+    transform: scale(0);
+    animation-name: pletuk;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.1s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+.hero h4 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 34px;
+    transform: scale(0);
+    animation-name: pletuk;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.2s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+.hero p {
+    margin-bottom: 30px;
+    font-weight: 400;
+    transform: scale(0);
+    animation-name: pletuk;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.3s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+.hero .hero-img {
+    margin-top: 50px;
+    width: 360px;
+    transform: scale(0);
+    animation-name: pletuk;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+.hero .cta {
+    background-color: #009DA4;
+    border-radius: 13px;
+    border-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 7px;
+    font-weight: 700;
+    padding-bottom: 7px;
+    margin-right: 20px;
+    margin-top: -10px;
+    transform: scale(0);
+    animation-name: pletuk;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.4s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+.hero .icon {
+    text-align: center;
+    margin-left: 10px;
+    color: #EF5B67;
+}
+
+.portofolio {
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.portofolio ul li {
+    margin-left: -40px;
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+
+.portofolio .active {
+    font-weight: 700;
+    color: #F7C531;
+}
+
+.portofolio a {
+    color: #272042;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.portofolio h5 {
+    font-size: 20px;
+    font-weight: 400;
+    transform: scale(0);
+    animation-name: pletuk;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.6s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+.portofolio h2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px;
+    transform: scale(0);
+    animation-name: pletuk;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+    animation-delay: 0.7s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+.portofolio h4 {
+    margin-top: 20px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.portofolio .cta {
+    background-color: #39A1A8;
+    border-style: none;
+    color: #ffffff;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 13px;
+    transition: 300ms;
+}
+
+.portofolio .cta:hover {
+    transform: scale(1.06);
+    transition: 300ms;
+}
+
+.portofolio img {
+    width: 350px;
+    border-radius: 20px;
+    margin-top: 50px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: 300ms;
+}
+
+.portofolio img:hover {
+    transform: scale(1.08);
+    transition: 300ms;
+}
+
+@media (min-width: 576px) {
+    .navbar {
+        text-align: center;
+    }
+    .navbar .cta {
+        margin-left: -2px;
+        margin-top: 10px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .hero {
+        padding-top: 68px;
+        padding-bottom: 20px;
+        height: 525px;
+        background-position: -650px -40px;
+    }
+    .hero h1 {
+        transform: scale(0);
+        animation-name: pletuk;
+        animation-duration: 0.7s;
+        animation-timing-function: ease;
+        animation-delay: 0.1s;
+        animation-direction: alternate;
+        animation-fill-mode: forwards;
+    }
+    .hero h4 {
+        transform: scale(0);
+        animation-name: pletuk;
+        animation-duration: 0.7s;
+        animation-timing-function: ease;
+        animation-delay: 0.2s;
+        animation-direction: alternate;
+        animation-fill-mode: forwards;
+    }
+    .hero p {
+        transform: scale(0);
+        animation-name: pletuk;
+        animation-duration: 0.7s;
+        animation-timing-function: ease;
+        animation-delay: 0.4s;
+        animation-direction: alternate;
+        animation-fill-mode: forwards;
+    }
+    .hero .hero-img {
+        margin-top: 50px;
+        width: 460px;
+        transform: scale(0);
+        animation-name: pletuk;
+        animation-duration: 0.7s;
+        animation-timing-function: ease;
+        animation-delay: 0.5s;
+        animation-direction: alternate;
+        animation-fill-mode: forwards;
+    }
+    .hero .hero-img:hover {
+        transform: scale(1.08);
+        transition: 300ms;
+    }
+    .hero .cta {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin-right: 20px;
+        margin-top: -10px;
+        transform: scale(0);
+        animation-name: pletuk;
+        animation-duration: 0.7s;
+        animation-timing-function: ease;
+        animation-delay: 0.4s;
+        animation-direction: alternate;
+        animation-fill-mode: forwards;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        text-align: center;
+    }
+    .navbar .cta {
+        margin-top: 3px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .hero {
+        padding-top: 68px;
+        padding-bottom: 20px;
+        height: 525px;
+        background-position: -510px -30px;
+    }
+    .hero .hero-img {
+        margin-top: 50px;
+        width: 355px;
+        transition: 300ms;
+    }
+    .hero .hero-img:hover {
+        transform: scale(1.08);
+        transition: 300ms;
+    }
+    .hero .cta {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin-right: 20px;
+        margin-top: -10px;
+        transition: 300ms;
+    }
+    .hero .cta:hover {
+        transform: scale(1.08);
+        transition: 300ms;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        text-align: center;
+    }
+    .navbar .cta {
+        margin-top: 3px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .hero {
+        padding-top: 68px;
+        padding-bottom: 20px;
+        height: 525px;
+        background-position: -180px -30px;
+    }
+    .hero .hero-img {
+        margin-top: 50px;
+        width: 450px;
+        transition: 300ms;
+    }
+    .hero .hero-img:hover {
+        transform: scale(1.08);
+        transition: 300ms;
+    }
+    .hero .cta {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin-right: 20px;
+        margin-top: -10px;
+        transition: 300ms;
+    }
+    .hero .cta:hover {
+        transform: scale(1.08);
+        transition: 300ms;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar {
+        background-color: #ffffff;
+    }
+    .navbar img {
+        width: 190px;
+    }
+    .navbar ul li {
+        margin-right: 20px;
+    }
+    .navbar .cta {
+        margin-top: 3px;
+        margin-left: 20px;
+        border-style: none;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .hero {
+        padding-top: 88px;
+        padding-bottom: 20px;
+        margin-bottom: -50px;
+        height: 525px;
+        background-position: -10px 10px;
+    }
+    .hero h1 {
+        margin-top: 50px;
+        transform: scale(0);
+        animation-name: pletuk;
+        animation-duration: 0.7s;
+        animation-timing-function: ease;
+        animation-delay: 0.1s;
+        animation-direction: alternate;
+        animation-fill-mode: forwards;
+    }
+    .hero h4 {
+        transform: scale(0);
+        animation-name: pletuk;
+        animation-duration: 0.7s;
+        animation-timing-function: ease;
+        animation-delay: 0.2s;
+        animation-direction: alternate;
+        animation-fill-mode: forwards;
+        margin-bottom: 20px;
+    }
+    .hero p {
+        transform: scale(0);
+        animation-name: pletuk;
+        animation-duration: 0.7s;
+        animation-timing-function: ease;
+        animation-delay: 0.3s;
+        animation-direction: alternate;
+        animation-fill-mode: forwards;
+        margin-bottom: 30px;
+    }
+    .hero .hero-img {
+        margin-top: 50px;
+        transform: scale(0);
+        width: 520px;
+        animation-name: pletuk;
+        animation-duration: 0.7s;
+        animation-timing-function: ease;
+        animation-delay: 0.5s;
+        animation-direction: alternate;
+        animation-fill-mode: forwards;
+        transition: 300ms;
+    }
+    .hero .hero-img:hover {
+        transform: scale(1.08);
+        transition: 300ms;
+    }
+    .hero .cta {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 7px;
+        font-weight: 700;
+        padding-bottom: 7px;
+        margin-right: 20px;
+        margin-top: -10px;
+        transform: scale(0);
+        animation-name: pletuk;
+        animation-duration: 0.7s;
+        animation-timing-function: ease;
+        animation-delay: 0.4s;
+        animation-direction: alternate;
+        animation-fill-mode: forwards;
+    }
+    .hero .icon {
+        margin-left: 10px;
+    }
+    .portofolio {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .portofolio ul li {
+        text-align: center;
+        display: inline;
+        padding: 30px;
+    }
+    .portofolio h2 {
+        margin-bottom: 20px;
+    }
+    .portofolio h4 {
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .portofolio .cta {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .portofolio img {
+        width: 350px;
+        margin-top: 50px;
+    }
+}
+
+@keyframes pletuk {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
